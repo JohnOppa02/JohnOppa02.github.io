@@ -240,18 +240,18 @@ function Pokedex() {
 
             <div style={{ 
                 position: 'absolute', top: '-10%', left: '-10%', width: '40%', height: '40%', 
-                background: bgBlob1, /* 👈 ใช้ตัวแปรสีที่ 1 */
+                background: bgBlob1, /*  ใช้ตัวแปรสีที่ 1 */
                 filter: 'blur(150px)', opacity: 0.4, borderRadius: '50%', 
                 animation: 'float1 10s infinite ease-in-out',
-                transition: 'background 1.5s ease' /* 👈 สั่งให้เวลาเปลี่ยนสี ค่อยๆ เฟดใช้เวลา 1.5 วินาที */
+                transition: 'background 1.5s ease' /*  สั่งให้เวลาเปลี่ยนสี ค่อยๆ เฟดใช้เวลา 1.5 วินาที */
             }}>
             </div>
             <div style={{ 
                 position: 'absolute', bottom: '-10%', right: '-10%', width: '40%', height: '40%', 
-                background: bgBlob2, /* 👈 ใช้ตัวแปรสีที่ 2 */
+                background: bgBlob2, /*  ใช้ตัวแปรสีที่ 2 */
                 filter: 'blur(150px)', opacity: 0.4, borderRadius: '50%', 
                 animation: 'float2 12s infinite ease-in-out',
-                transition: 'background 1.5s ease' /* 👈 สั่งให้ค่อยๆ เฟดเช่นกัน */
+                transition: 'background 1.5s ease' /*  สั่งให้ค่อยๆ เฟดเช่นกัน */
             }}>                
             </div>
 
