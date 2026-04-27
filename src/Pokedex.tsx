@@ -107,7 +107,6 @@ import PokemonCard from './PokemonCard';
                 setIsLoading(false);
         });
     }, 500);
-
     return () => clearTimeout(delaySearch);
 }, [searchTerm]);
     
